@@ -61,7 +61,7 @@ if !(&t_Co == 256 || has('gui_running'))
 	hi Search       guifg=bg        guibg=#ffd787   ctermfg=bg     ctermbg=221       gui=none      cterm=none
 
 	" UI
-"	hi LineNr       guifg=#555555   guibg=#000000   ctermfg=238    ctermbg=233       gui=none      cterm=none
+	hi LineNr       guifg=#555555   guibg=#000000   ctermfg=249    ctermbg=none      gui=none      cterm=none
 	hi CursorLineNr guifg=#afafaf   guibg=#444444   ctermfg=245    ctermbg=bg        gui=none      cterm=none
 	hi Pmenu        guifg=#121212   guibg=#b2b2b2   ctermfg=233    ctermbg=249       gui=none      cterm=none
 	hi PmenuSel     guifg=fg        guibg=#585858   ctermfg=fg     ctermbg=240       gui=none      cterm=none
