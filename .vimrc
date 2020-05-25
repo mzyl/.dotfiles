@@ -1,7 +1,7 @@
 set nocompatible
 syntax on
-"colorscheme simple-dark
-colorscheme simple-light
+colorscheme simple-dark
+"colorscheme simple-light
 set number
 set autoindent
 set tabstop=4
