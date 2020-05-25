@@ -3,7 +3,6 @@ syntax on
 "colorscheme simple-dark
 colorscheme simple-light
 set number
-hi LineNr ctermfg=grey
 set autoindent
 set tabstop=4
 set shiftwidth=4
