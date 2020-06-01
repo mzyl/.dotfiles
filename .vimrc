@@ -4,8 +4,7 @@ colorscheme simple-dark
 "colorscheme simple-light
 set number
 set autoindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=4 shiftwidth=4 expandtab
 set showmatch
 nnoremap ; :
 set incsearch
