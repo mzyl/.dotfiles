@@ -1,3 +1,4 @@
+if [ "$TMUX" = "" ]; then tmux; fi #autorun tmux on terminal launch
 export PS1="%1~ %F{26}> %f"
 
 alias ls="ls -G" #adds color to ls
@@ -7,5 +8,5 @@ alias pip="pip3" #runs python3 package installer by default
 alias envmake="python3 -m venv env" #create python virtual environtment
 alias startenv="source env/bin/activate" #starts python virtual environment
 
-alias nocaps="setxkbmap -option ctrl:nocaps"
-alias escapectrl="xmodmap -e 'keycode 37 = Escape'"
+alias nocaps="setxkbmap -option ctrl:nocaps" #replaces caps with ctrl
+alias escapectrl="xmodmap -e 'keycode 37 = Escape'" #replaces left_ctrl with escape
