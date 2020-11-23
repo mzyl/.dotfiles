@@ -1,6 +1,7 @@
 set nocompatible
 syntax on
-colorscheme simple-dark
+highlight Comment ctermfg=yellow
+"colorscheme simple-dark
 "colorscheme simple-light
 set number
 set autoindent
