@@ -5,7 +5,7 @@ highlight Comment ctermfg=yellow
 "colorscheme simple-light
 set number
 set autoindent
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=2 shiftwidth=2 expandtab
 set showmatch
 nnoremap ; :
 set incsearch
