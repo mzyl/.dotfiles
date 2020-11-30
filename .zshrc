@@ -1,4 +1,5 @@
-export PS1="%F{178}:::::%f %1~ %F{26}> %f"
+#export PS1="%F{178}:::::%f %1~ %F{26}> %f"
+export PS1="%F{9}:::%f %F{11}%1~%f %F{26}» %f"
 export CLICOLOR=1
 export LSCOLORS=gx
 
