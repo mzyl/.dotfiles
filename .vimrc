@@ -16,3 +16,5 @@ set nowrap
 set statusline=%=%f\ %m
 set fillchars=vert:\ ,stl:\ ,stlnc:\ 
 set laststatus=2
+
+let g:go_highlight_trailing_whitespace_error=0
