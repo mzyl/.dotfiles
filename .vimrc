@@ -1,4 +1,5 @@
-set nocompatible
+set nocompatible 
+set mouse=a
 syntax on
 highlight Comment ctermfg=yellow
 "colorscheme simple-dark
@@ -18,3 +19,5 @@ set fillchars=vert:\ ,stl:\ ,stlnc:\
 set laststatus=2
 
 let g:go_highlight_trailing_whitespace_error=0
+
+
