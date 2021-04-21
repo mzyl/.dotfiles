@@ -14,3 +14,4 @@ alias startenv="source env/bin/activate" #starts python virtual environment
 
 alias nocaps="setxkbmap -option ctrl:nocaps" #replaces caps with ctrl
 alias escapectrl="xmodmap -e 'keycode 37 = Escape'" #replaces left_ctrl with escape
+export PATH=$PATH:/usr/local/go/bin
