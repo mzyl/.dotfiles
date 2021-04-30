@@ -14,7 +14,7 @@ set hlsearch
 set ignorecase
 set nowrap
 set cc=80
-highlight ColorColumn ctermbg=239
+highlight ColorColumn ctermbg=23
 
 set statusline=%=%f\ %m
 set fillchars=vert:\ ,stl:\ ,stlnc:\ 
