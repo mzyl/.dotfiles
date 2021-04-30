@@ -1,7 +1,7 @@
 if [ "$TMUX" = "" ]; then tmux; fi #autorun tmux on terminal launch
 #export PS1="%F{178}:::::%f %1~ %F{26}> %f"
 #export PS1="%F{9}:::%f %F{11}%1~%f %F{26}» %f"
-export PS1="%F{9}%n@%m::%f %F{11}%1~%f %F{26}>%f"
+export PS1="%F{2}%n@%m::%f %F{11}%1~%f %F{26}>%f"
 export CLICOLOR=1
 export LSCOLORS=gx
 
@@ -14,3 +14,4 @@ alias startenv="source env/bin/activate" #starts python virtual environment
 
 alias nocaps="setxkbmap -option ctrl:nocaps" #replaces caps with ctrl
 alias escapectrl="xmodmap -e 'keycode 37 = Escape'" #replaces left_ctrl with escape
+export PATH=$PATH:/usr/local/go/bin
